@@ -1,6 +1,6 @@
 # Countly_UE
 
-Implementation of Countlys API/SDK for Unreal Engine. 
+Implementation of the Count.ly API/SDK for Unreal Engine. 
 
 ## Getting Started
 
