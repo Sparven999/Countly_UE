@@ -18,7 +18,7 @@ enum HttpModes
 /**
  * 
  */
-UCLASS()
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class COUNTLYSDK_API UCountlyService : public UActorComponent
 {
 	GENERATED_BODY()
@@ -37,6 +37,9 @@ public:
 	UPROPERTY()
 	FString DeviceID;
 
+	UPROPERTY(BlueprintReadWrite)
+	int RequestLimit;											//The number of requests we can have in the queue. If reached it will remove oldest requests first. Suggested/default amount = 1000
+	
 	UFUNCTION()
 	bool Initialize();
 
@@ -55,4 +58,8 @@ private:
 
 	UPROPERTY()
 	TEnumAsByte<HttpModes> HttpMode;
+
+protected:
+	// Called when the game starts
+	virtual void BeginPlay() override;
 };

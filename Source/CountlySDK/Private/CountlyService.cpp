@@ -13,6 +13,8 @@ UCountlyService::UCountlyService()
 	URL.Empty();
 	AppKey.Empty();
 	DeviceID.Empty();
+
+	RequestLimit = 1000;
 }
 
 bool UCountlyService::Initialize()
@@ -50,4 +52,12 @@ bool UCountlyService::SendRequest(UCountlyRequest* Request)
 void UCountlyService::ChangeHttpMode(HttpModes NewHttpMode)
 {
 	HttpMode = NewHttpMode;
+}
+
+void UCountlyService::BeginPlay()
+{
+	Super::BeginPlay();
+
+	// ...
+
 }
