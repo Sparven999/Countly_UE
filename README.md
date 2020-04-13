@@ -1,6 +1,6 @@
 # Countly_UE
 
-Implementation of the Count.ly API/SDK for Unreal Engine. 
+Implementation of the Count.ly API/SDK for Unreal Engine. The project aims to implement the whole SDK development guide that can be found here with tweeks to fit the Unreal Engine. It will also incorporate full support for Blueprints. 
 
 ## Getting Started
 
