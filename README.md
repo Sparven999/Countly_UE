@@ -11,8 +11,8 @@ For more info about how to do that, look into Unreal Engines documentation. I wi
 
 ### Prerequisites
 
-Unreal Engine 4.24.3
-Countly Server setup and ready. 
+* Unreal Engine 4.24.3
+* Countly Server (Setup and ready for test)
 
 ### Installing
 
