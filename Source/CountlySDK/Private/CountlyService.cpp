@@ -3,8 +3,7 @@
 
 #include "CountlyService.h"
 
-UCountlyService::UCountlyService(const FObjectInitializer& ObjectInitializer)
-: Super(ObjectInitializer)
+UCountlyService::UCountlyService()
 {
 	/*____________________________________________________________________________________________________________
 	 *
@@ -46,4 +45,9 @@ bool UCountlyService::SendRequest(UCountlyRequest* Request)
 	bool result = false;
 
 	return result;
+}
+
+void UCountlyService::ChangeHttpMode(HttpModes NewHttpMode)
+{
+	HttpMode = NewHttpMode;
 }
