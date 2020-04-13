@@ -24,7 +24,7 @@ This plugin will try to follow the coding standards set by Epic Games.
 
 ## Built With
 
-* [Unreal Engine](https://www.unrealengine.com/en-US/) - The allmighty Unreal Engines website
+* [Unreal Engine](https://www.unrealengine.com/en-US/) - Website of the almighty Unreal Engine
 * [Countly](https://count.ly/) - Countly Website
 
 ## Contributing
