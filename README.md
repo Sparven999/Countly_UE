@@ -1,2 +1,52 @@
 # Countly_UE
-This is an integration/SDK for the Countly Analytics server/service for Unreal Engine
+
+Implementation of Countlys API/SDK for Unreal Engine. 
+
+## Getting Started
+
+Currently it will do nothing, feel free to join me though! 
+
+If you want to join me, you will have to clone the repo and add it to a Unreal Engine project.
+For more info about how to do that, look into Unreal Engines documentation. I will update this with time and as it gets more fleshed out. 
+
+### Prerequisites
+
+Unreal Engine 4.24.3
+Countly Server setup and ready. 
+
+### Installing
+
+Add it to your Unreal project and use it directly, or wait for build versions! 
+
+### Coding style
+
+This plugin will try to follow the coding standards set by Epic Games. 
+
+## Built With
+
+* [Unreal Engine](https://www.unrealengine.com/en-US/) - The allmighty Unreal Engines website
+* [Countly](https://count.ly/) - Countly Website
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+When ready for release I will build the plugins binaries and handle the versioning.
+
+## Authors
+
+* **Oscar Hvarfvén** - *Initial work* - [PurpleBooth](https://github.com/Sparven999)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Unreal Engine
+* Count.ly 
+* All the help from Unreal Engine Community! 
