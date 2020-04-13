@@ -37,7 +37,7 @@ When ready for release I will build the plugins binaries and handle the versioni
 
 ## Authors
 
-* **Oscar Hvarfvén** - *Initial work* - [PurpleBooth](https://github.com/Sparven999)
+* **Oscar Hvarfvén** - *Initial work* - [Sparven999](https://github.com/Sparven999)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
