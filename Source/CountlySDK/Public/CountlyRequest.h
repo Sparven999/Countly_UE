@@ -16,12 +16,15 @@ class COUNTLYSDK_API UCountlyRequest : public UObject
 
 public:
 	UPROPERTY()
-		FString URL;
+	FString URL;
 
 	UPROPERTY()
-		FString AppKey;
+	FString AppKey;
 
 	UPROPERTY()
-		FString DeviceID;
+	FString DeviceID;
+
+	UPROPERTY()
+	FDateTime TimeStamp;
 	
 };

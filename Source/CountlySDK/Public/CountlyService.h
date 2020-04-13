@@ -59,6 +59,9 @@ private:
 	UPROPERTY()
 	TEnumAsByte<HttpModes> HttpMode;
 
+	UFUNCTION()
+	void SessionUpdate();
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;

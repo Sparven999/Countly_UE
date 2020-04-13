@@ -14,7 +14,7 @@ UCountlyService::UCountlyService()
 	AppKey.Empty();
 	DeviceID.Empty();
 
-	RequestLimit = 1000;
+	RequestLimit = 1000;														//Set the default RequestLimit to 1000
 }
 
 bool UCountlyService::Initialize()
@@ -32,8 +32,7 @@ bool UCountlyService::Initialize()
 
 UCountlyRequest* UCountlyService::NewRequest()
 {
-	UCountlyRequest* TempRequest;
-	TempRequest = NewObject<UCountlyRequest>();
+	UCountlyRequest* TempRequest = NewObject<UCountlyRequest>();
 
 	TempRequest->AppKey = AppKey;
 	TempRequest->DeviceID = DeviceID;
