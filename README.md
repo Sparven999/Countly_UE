@@ -2,7 +2,7 @@
 
 Implementation of the Count.ly API/SDK for Unreal Engine. The project aims to implement the whole SDK development guide that can be found [here - Count.lys website](https://support.count.ly/hc/en-us/articles/360037753291-SDK-development-guide) with tweeks to fit the Unreal Engine. It will also have full support for Blueprints. 
 
-It aims to use as little or no 3rd party libraries as possible to be easier to maintain, it will use libraries incorporated in to Unreal Engine by default wherever it can. 
+It aims to use as little or no 3rd party libraries as possible to be easier to maintain, it will use libraries available in Unreal Engine by default wherever it can. 
 
 ## Getting Started
 
