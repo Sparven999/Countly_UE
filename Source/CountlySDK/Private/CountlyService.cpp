@@ -20,10 +20,30 @@ bool UCountlyService::Initialize()
 {
 	bool result = false;
 	
-	if(!URL.IsEmpty() && !AppKey.IsEmpty() && !DeviceID.IsEmpty())
+	if (!URL.IsEmpty() && !AppKey.IsEmpty() && !DeviceID.IsEmpty())
 	{
-		
+		result = true;
 	}
+	else result = false;
+
+	return result;
+}
+
+UCountlyRequest* UCountlyService::NewRequest()
+{
+	UCountlyRequest* TempRequest;
+	TempRequest = NewObject<UCountlyRequest>();
+
+	TempRequest->AppKey = AppKey;
+	TempRequest->DeviceID = DeviceID;
+	TempRequest->URL = URL;
+	
+	return TempRequest;
+}
+
+bool UCountlyService::SendRequest(UCountlyRequest* Request)
+{
+	bool result = false;
 
 	return result;
 }

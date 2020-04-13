@@ -33,6 +33,13 @@ public:
 	UFUNCTION()
 	bool Initialize();
 
+	UFUNCTION()
+	UCountlyRequest* NewRequest();
+
+	UFUNCTION()
+	bool SendRequest(UCountlyRequest* Request);
+
 private:
+
 	TQueue<UCountlyRequest, EQueueMode::Mpsc> RequestQueue;		//We want this to be of type MPSC so we can use it easier with another thread. This to not bog down the game thread! 
 };

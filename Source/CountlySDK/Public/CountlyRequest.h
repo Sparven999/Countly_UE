@@ -13,5 +13,15 @@ UCLASS()
 class COUNTLYSDK_API UCountlyRequest : public UObject
 {
 	GENERATED_BODY()
+
+public:
+	UPROPERTY()
+		FString URL;
+
+	UPROPERTY()
+		FString AppKey;
+
+	UPROPERTY()
+		FString DeviceID;
 	
 };
