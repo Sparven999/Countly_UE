@@ -20,7 +20,7 @@ bool UCountlyService::Initialize()
 {
 	bool result = false;
 	
-	if(URL.IsEmpty() && AppKey.IsEmpty() && DeviceID.IsEmpty())
+	if(!URL.IsEmpty() && !AppKey.IsEmpty() && !DeviceID.IsEmpty())
 	{
 		
 	}
