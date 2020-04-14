@@ -3,6 +3,8 @@
 
 #include "CountlyService.h"
 
+DEFINE_LOG_CATEGORY(CountlyLog);
+
 UCountlyService::UCountlyService()
 {
 	/*____________________________________________________________________________________________________________
@@ -51,6 +53,10 @@ bool UCountlyService::SendRequest(UCountlyRequest* Request)
 void UCountlyService::ChangeHttpMode(HttpModes NewHttpMode)
 {
 	HttpMode = NewHttpMode;
+}
+
+void UCountlyService::SessionUpdate()
+{
 }
 
 void UCountlyService::BeginPlay()

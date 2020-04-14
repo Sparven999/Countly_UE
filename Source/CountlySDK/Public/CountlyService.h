@@ -8,6 +8,8 @@
 #include "Components/ActorComponent.h"
 #include "CountlyService.generated.h"
 
+DECLARE_LOG_CATEGORY_EXTERN(CountlyLog, Log, All);			//Declare a custom category for our logs. 
+
 UENUM()
 enum HttpModes
 {
